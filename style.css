@@ -18,6 +18,15 @@ html, body {
 }
 .slider_link {
     margin: 0 5px;
+    color: #ccc;
+    text-decoration: none;
+}
+.slider_link:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.slider_link:hover svg rect {
+    fill-opacity: 1;
 }
 .text {
     text-align: center;
