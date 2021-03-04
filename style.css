@@ -29,11 +29,8 @@ h3 {
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
+    font-weight: normal;
 }
-h1 span {
-    color: #E3B873;
-}
-
 h2.bg_title {
     font-family: 'Yeseva One';
     font-size: 27px;
@@ -44,6 +41,7 @@ h2.bg_title {
     display: flex;
     align-items: flex-end;
     margin-bottom: 34px;
+    font-weight: normal;
 }
 
 .projects {
@@ -83,7 +81,7 @@ h2.bg_title::after {
     position: relative;
     top: -18px;
     margin-left: 20px;
-
+    
 }
 .projects_wrapper p {
     margin-bottom: 34px;
